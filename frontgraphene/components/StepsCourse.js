@@ -34,11 +34,11 @@ const StepsCourse = ({ steps, courses, global }) => {
               <div className="relative mb-2">
                 <div
                   className="absolute flex align-center items-center align-middle content-center"
-                  style={{
-                    width: "calc(100% - 2.5rem - 1rem)",
-                    top: "50%",
-                    transform: "translate(-50%, -50%)",
-                  }}
+                  // style={{
+                  //   width: "calc(100% - 2.5rem - 1rem)",
+                  //   top: "50%",
+                  //   transform: "translate(-50%, -50%)",
+                  // }}
                 >
                   <div className="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
                     <div className="w-0 bg-green-300 py-1 rounded"></div>
@@ -59,11 +59,11 @@ const StepsCourse = ({ steps, courses, global }) => {
               <div className="relative mb-2">
                 <div
                   className="absolute flex align-center items-center align-middle content-center"
-                  style={{
-                    width: "calc(100% - 2.5rem - 1rem)",
-                    top: "50%",
-                    transform: "translate(-50%, -50%)",
-                  }}
+                  // style={{
+                  //   width: "calc(100% - 2.5rem - 1rem)",
+                  //   top: "50%",
+                  //   transform: "translate(-50%, -50%)",
+                  // }}
                 >
                   <div className="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
                     <div className="w-0 bg-green-300 py-1 rounded"></div>
@@ -83,11 +83,11 @@ const StepsCourse = ({ steps, courses, global }) => {
               <div className="relative mb-2">
                 <div
                   className="absolute flex align-center items-center align-middle content-center"
-                  style={{
-                    width: "calc(100% - 2.5rem - 1rem)",
-                    top: "50%",
-                    transform: "translate(-50%, -50%)",
-                  }}
+                  // style={{
+                  //   width: "calc(100% - 2.5rem - 1rem)",
+                  //   top: "50%",
+                  //   transform: "translate(-50%, -50%)",
+                  // }}
                 >
                   <div className="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
                     <div className="w-0 bg-green-300 py-1 rounded"></div>
@@ -107,11 +107,11 @@ const StepsCourse = ({ steps, courses, global }) => {
               <div className="relative mb-2">
                 <div
                   className="absolute flex align-center items-center align-middle content-center"
-                  style={{
-                    width: "calc(100% - 2.5rem - 1rem)",
-                    top: "50%",
-                    transform: "translate(-50%, -50%)",
-                  }}
+                  // style={{
+                  //   width: "calc(100% - 2.5rem - 1rem)",
+                  //   top: "50%",
+                  //   transform: "translate(-50%, -50%)",
+                  // }}
                 >
                   <div className="w-full bg-gray-200 rounded items-center align-middle align-center flex-1">
                     <div className="w-0 bg-green-300 py-1 rounded"></div>

@@ -4,11 +4,8 @@ import Head from "next/head";
 import '../assets/css/style.css';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import '@uiw/react-markdown-preview/markdown.css';
 import 'tailwindcss/tailwind.css'
 import { createContext } from "react";
-import { getStrapiMedia } from "../lib/media";
-import { fetchAPI } from "../lib/api";
 import { DefaultSeo } from 'next-seo';
 
 import { UserProvider } from '@auth0/nextjs-auth0';
@@ -26,7 +23,6 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <DefaultSeo {... SEO} />
       <Head>
-
           <link rel="icon" href="/carbon2.svg" />
        </Head>   
        <UserProvider>

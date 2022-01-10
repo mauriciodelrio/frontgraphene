@@ -1,6 +1,10 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   purge: [],
   presets: [],
   darkMode: false, // or 'media' or 'class'
@@ -27,7 +31,7 @@ module.exports = {
       purple: colors.violet,
       pink: colors.pink,
       teal: colors.teal,
-      orange: colors.orange
+      orange: colors.orange,
     },
     spacing: {
       px: '1px',
@@ -179,10 +183,6 @@ module.exports = {
       200: '2',
     },
     container: {},
-    content: [
-      "./pages/**/*.{js,ts,jsx,tsx}",
-      "./components/**/*.{js,ts,jsx,tsx}",
-    ],
     cursor: {
       auto: 'auto',
       default: 'default',

@@ -1,4 +1,5 @@
 module.exports = {
+    reactStrictMode: true,
     env: {
         STRAPI_API_URL: process.env.STRAPI_API_URL || "http://localhost:1337/api",
         STRAPI_API_URL_WITH_POPULATE: process.env.STRAPI_API_URL_WITH_POPULATE || "http://localhost:1337/api?populate=*",
