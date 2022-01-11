@@ -16,7 +16,7 @@ const StepsCourse = ({ steps, courses, global }) => {
             ser un programador destacado. Comprenderás que es un desafío que involucra mucho más que simplemente programar pero que te ayudará a desarrollar una habilidad que te permitirá ser un programador de talla mundial.
           </p>
         </div>
-        <div className="container mx-auto py-6 w-1/2">
+        <div className="container mx-auto py-6 w-full md:w-2/3">
           <div className="flex" id="ProgressStepper">
             <div className="w-1/5 cursor-pointer" onClick={()=> {setStep(0)}}>
               <div className="relative mb-2">
