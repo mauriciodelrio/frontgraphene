@@ -58,3 +58,13 @@ input:checked ~ .dot {
     font-weight: 100;
   
   }
+
+  .bg-logo {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/carbont.svg');
+    
+  }

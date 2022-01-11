@@ -9,13 +9,10 @@ export default function Home() {
     <div className="flex flex-col items-center sm:w-full justify-center min-h-screen py-2">
       <NavBar />
       <main className="flex flex-col items-center justify-center w-full flex-1 sm:px-2 md:px-10 text-center">
-        <div className="max-w-screen-lg bg-white rounded-lg mx-auto text-center py-12 mt-4 w-full mb-20 bg-logo">
-          <h2 className="text-3xl leading-9 font-bold tracking-tight text-gray-800 sm:text-4xl sm:leading-10">
+        <div className="max-w-screen-lg rounded-lg mx-auto text-center py-12 mt-4 w-full mb-20 bg-logo">
+          <h2 className="text-4xl leading-9 font-bold tracking-tight text-gray-800 sm:text-4xl sm:leading-10 pb-24">
             Comienza tu portafolio ahora mismo
           </h2>
-          <div className="mt-8 flex justify-center align-center items-center">
-            <img src="carbon2.svg" alt="carbon2" className="w-60 h-60 flex justify-center mx-auto" />
-          </div>
           <div className="grid grid-cols-2 gap-4 pt-8">
             <div>
               <h3 className="text-center text-4xl font-bold text-orange-600 pb-4">
