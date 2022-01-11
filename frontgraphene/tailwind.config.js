@@ -73,6 +73,7 @@ module.exports = {
     animation: {
       none: 'none',
       spin: 'spin 1s linear infinite',
+      "spin-slow": 'spin 5s linear infinite',
       ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
       pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       bounce: 'bounce 1s infinite',
@@ -97,6 +98,7 @@ module.exports = {
       'gradient-to-bl': 'linear-gradient(to bottom left, var(--tw-gradient-stops))',
       'gradient-to-l': 'linear-gradient(to left, var(--tw-gradient-stops))',
       'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
+      'logo': "url('/carbon2.svg')",
     },
     backgroundOpacity: (theme) => theme('opacity'),
     backgroundPosition: {

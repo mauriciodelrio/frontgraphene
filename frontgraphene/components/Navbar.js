@@ -32,7 +32,7 @@ const NavBar = () => {
     <nav className="w-full flex items-center justify-between text-right flex-wrap bg-white p-6">
       <Link href="/">
         <div className="flex items-center flex-shrink-0 text-gray-600 mr-6 cursor-pointer">
-          <img src={"/carbon2.svg"} alt="logo" className="w-16" href="/" />
+          <img src={"/carbon2.svg"} alt="logo" className="w-24 animate-spin-slow" /> 
         </div>
       </Link>
       <div className="block lg:hidden">

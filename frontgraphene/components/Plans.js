@@ -5,17 +5,17 @@ const Plans = ({ redirect }) => {
   const { user, loading } = useUser();
   console.log(user);
   return (
-    <>
-      <h1 className="text-3xl font-bold mb-2 text-center justify-center pb-8 text-gray-800">
+    <div id="plans">
+      <h1 className="text-3xl leading-9 font-bold tracking-tight text-gray-800 sm:text-4xl sm:leading-10 p-8">
         Planes
       </h1>
       <div className="flex flex-col items-center justify-center w-full flex-1 sm:px-2 md:px-10 text-center">
-        <p className="text-md font-semibold text-center justify-center pb-8 text-gray-600">
+        <p className="text-md text-center justify-center pb-8 text-gray-600 w-1/2">
           Pagas una vez y obtienes acceso de por vida a las prestaciones, puedes
-          cambiar y actualizar tu plan cuando quieras.
+          cambiar y actualizar tu plan cuando quieras. Puedes ver y consumir el contenido cuando quieras y cambiar la configuración de las pausas de tu plan.
         </p>
       </div>
-      <div className="container mx-auto">
+      <div className="flex flex group max-w-screen-lg bg-white rounded-lg mx-auto text-center py-12 mt-4 w-full mb-20">
         <div className="flex flex-wrap mx-8">
           <div className="w-full md:w-1/3 xl:w-1/3 p-4 h-3/6">
             <a
@@ -122,7 +122,7 @@ const Plans = ({ redirect }) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

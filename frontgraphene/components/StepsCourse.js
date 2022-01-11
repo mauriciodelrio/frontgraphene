@@ -11,12 +11,12 @@ const StepsCourse = ({ steps, courses, global }) => {
           Estructura del curso
         </h1>
         <div className="flex flex-col items-center justify-center w-full flex-1 sm:px-2 md:px-10 text-center">
-          <p className="text-md font-semibold text-center justify-center pb-8 text-gray-600">
+          <p className="text-md text-center justify-center pb-8 text-gray-600 w-1/2">
             Esta es una aproximación de la estructura del curso que verás para
-            ser un programador de talla mundial
+            ser un programador destacado. Comprenderás que es un desafío que involucra mucho más que simplemente programar pero que te ayudará a desarrollar una habilidad que te permitirá ser un programador de talla mundial.
           </p>
         </div>
-        <div className="container mx-auto py-6">
+        <div className="container mx-auto py-6 w-1/2">
           <div className="flex" id="ProgressStepper">
             <div className="w-1/5 cursor-pointer" onClick={()=> {setStep(0)}}>
               <div className="relative mb-2">

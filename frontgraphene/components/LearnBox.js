@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faQuestion, faPlus, faBezierCurve , faDatabase, faTasks} from "@fortawesome/free-solid-svg-icons"
-import { faPython, faGit } from "@fortawesome/free-brands-svg-icons"
 const LearnBox = ({ option, data }) => {
   const rendering = data?.data[option]?.steps?.map((step, index) => {
     return (
