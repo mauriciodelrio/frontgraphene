@@ -5,6 +5,9 @@
         },
         {
             "path": "../../webpagev3"
+        },
+        {
+            "path": "../../vitagene-front"
         }
     ]
 }

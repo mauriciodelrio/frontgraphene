@@ -1,8 +1,7 @@
 // create a componenet about me splitted in two box with tailwind css
-import { faFlag } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
     return (
-        <div className="flex flex group max-w-screen-lg bg-white rounded-lg mx-auto text-center py-12 mt-4 w-full mb-20">
+        <div className="flex flex-wrap px-4 items-center md:justify-arround sm:justify-center max-w-2x1 sm:w:full">
             <div className="flex flex-col items-center w-full md:w-1/2 lg:w-1/2 p-4">
                 <h1 className="text-center text-4xl font-bold text-orange-600 pb-4">Misión</h1>
                 <p className="text-center text-sm text-gray-800 sm:text-justify">
